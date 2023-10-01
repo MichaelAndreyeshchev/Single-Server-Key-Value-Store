@@ -1,0 +1,74 @@
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:GET request -- Key: h, Result: {'GET error': 'h does not exist!'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:GET request -- Key: hello, Result: {'GET error': 'hello does not exist!'}
+INFO:ServerLogger:PUT request -- Key: hello, Value: world, Result: {'PUT result': 'key: hello, value: world has been inserted!'}
+INFO:ServerLogger:GET request -- Key: hello, Result: {'GET result': 'world'}
+INFO:ServerLogger:GET request -- Key: hello, Result: {'GET result': 'world'}
+INFO:ServerLogger:GET request -- Key: hello, Result: {'GET result': 'world'}
+INFO:ServerLogger:PUT request -- Key: michael, Value: andrev, Result: {'PUT result': 'key: michael, value: andrev has been inserted!'}
+INFO:ServerLogger:DELETE request -- Key: hello, Result: {'DELETE result': 'hello has been deleted!'}
+INFO:ServerLogger:DELETE request -- Key: hello, Result: {'DELETE error': 'hello does not exist!'}
+INFO:ServerLogger:GET request -- Key: hello, Result: {'GET error': 'hello does not exist!'}
+INFO:ServerLogger:GET request -- Key: hello, Result: {'GET error': 'hello does not exist!'}
+INFO:ServerLogger:GET request -- Key: michael, Result: {'GET result': 'andrev'}
