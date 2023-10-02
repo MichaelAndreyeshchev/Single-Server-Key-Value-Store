@@ -113,7 +113,7 @@ class MultiThreadedServer:
         print("Server has been closed!")
 
 if __name__ == '__main__':
-    server = MultiThreadedServer('127.0.0.1', 65432)
+    server = MultiThreadedServer('0.0.0.0', 65432)
     persistance_mechanism_thread = threading.Thread(target = server.persistance_mechanism)
     persistance_mechanism_thread.daemon = True
     persistance_mechanism_thread.start()
