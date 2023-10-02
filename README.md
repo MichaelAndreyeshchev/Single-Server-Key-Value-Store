@@ -51,16 +51,39 @@ This repository contains a multi-threaded client script, `multithreading_client.
 - Python 3.x
 - Ensure the server is running before executing this client script.
 
-
-### Usage
+### Docker Usage
 
 1. **Start the Server:**
 ```bash
+git clone https://github.com/MichaelAndreyeshchev/Single-Server-Key-Value-Store.git key_value_store
+cd key_value_store
+docker build -t key_value_store . 
+docker run -p 127.0.0.1:65432:65432 key_value_store # the server is now running
+```
+2. **Running the Multi-Threaded Client:**
+```bash
+python multithreading_client.py # End the server by running "python client.py END end" twice
+```
+**OR**
+2. **Running the Command-line Client:**
+```bash
+python client.py PUT key1 value1
+python client.py GET key1
+python client.py DELETE key1
+python client.py END end # Ends the server and clients! You will have to call this twice to fully do this
+```
+
+### Regular Usage
+
+1. **Start the Server:**
+```bash
+git clone https://github.com/MichaelAndreyeshchev/Single-Server-Key-Value-Store.git
+cd Single-Server-Key-Value-Store
 py -3 server.py
 ```
 2. **Running the Multi-Threaded Client:**
 ```bash
-py -3 client_multi_threaded.py # End the server and client by clicking ctr-C in the running server code and then rerunning the py -3 client_multi_threaded.py to fully terminate the server and client
+py -3 multithreading_client.py # End the server and client by clicking ctr-C in the running server code and then rerunning the py -3 client_multi_threaded.py to fully terminate the server and client
 ```
 **OR**
 2. **Running the Command-line Client:**
