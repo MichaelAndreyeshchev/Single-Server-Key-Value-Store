@@ -5,6 +5,7 @@ import pickle
 import socket
 import logging
 import threading
+from datetime import datetime 
 from flask import Flask, request, jsonify
 
 #logging.basicConfig(filename='server.log', level=logging.INFO)
@@ -58,26 +59,28 @@ class MultiThreadedServer:
         key = request_json.get("key")
         value = request_json.get("value")
 
+        current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
         if method == "GET":
             with thread_lock:
                 value = hash_table.get(key, None)
 
             response = {"GET result": value} if value else {"GET error": f"{key} does not exist!"}
-            self.logger.info(f'GET request -- Key: {key}, Result: {response}')
+            self.logger.info(f'Current Timestamp: {current_timestamp}, GET request -- Key: {key}, Result: {response}')
         
         elif method == "PUT":
             with thread_lock:
                 hash_table[key] = value
 
             response = {"PUT result": f"key: {key}, value: {value} has been inserted!"} if value else {"PUT error": f"{key} does not exist!"}
-            self.logger.info(f'PUT request -- Key: {key}, Value: {value}, Result: {response}')
+            self.logger.info(f'Current Timestamp: {current_timestamp}, PUT request -- Key: {key}, Value: {value}, Result: {response}')
 
         elif method == "DELETE":
             with thread_lock:
                 value = hash_table.pop(key, None)
 
             response = {"DELETE result": f"{key} has been deleted!"} if value else {"DELETE error": f"{key} does not exist!"}
-            self.logger.info(f'DELETE request -- Key: {key}, Result: {response}')
+            self.logger.info(f'Current Timestamp: {current_timestamp}, DELETE request -- Key: {key}, Result: {response}')
 
         elif method == "END":
             response = {"END result": "Server has been closed!"}

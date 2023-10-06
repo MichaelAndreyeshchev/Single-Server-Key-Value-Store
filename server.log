@@ -1,74 +1,439 @@
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET result': 'value1'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
-INFO:ServerLogger:GET request -- Key: h, Result: {'GET error': 'h does not exist!'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
-INFO:ServerLogger:GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
-INFO:ServerLogger:GET request -- Key: hello, Result: {'GET error': 'hello does not exist!'}
-INFO:ServerLogger:PUT request -- Key: hello, Value: world, Result: {'PUT result': 'key: hello, value: world has been inserted!'}
-INFO:ServerLogger:GET request -- Key: hello, Result: {'GET result': 'world'}
-INFO:ServerLogger:GET request -- Key: hello, Result: {'GET result': 'world'}
-INFO:ServerLogger:GET request -- Key: hello, Result: {'GET result': 'world'}
-INFO:ServerLogger:PUT request -- Key: michael, Value: andrev, Result: {'PUT result': 'key: michael, value: andrev has been inserted!'}
-INFO:ServerLogger:DELETE request -- Key: hello, Result: {'DELETE result': 'hello has been deleted!'}
-INFO:ServerLogger:DELETE request -- Key: hello, Result: {'DELETE error': 'hello does not exist!'}
-INFO:ServerLogger:GET request -- Key: hello, Result: {'GET error': 'hello does not exist!'}
-INFO:ServerLogger:GET request -- Key: hello, Result: {'GET error': 'hello does not exist!'}
-INFO:ServerLogger:GET request -- Key: michael, Result: {'GET result': 'andrev'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:23:30, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:24:10, PUT request -- Key: Michael, Value: Andreyeshchev, Result: {'PUT result': 'key: Michael, value: Andreyeshchev has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:24:16, PUT request -- Key: John, Value: Doe, Result: {'PUT result': 'key: John, value: Doe has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:24:21, PUT request -- Key: Tim, Value: Smith, Result: {'PUT result': 'key: Tim, value: Smith has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:24:28, DELETE request -- Key: John, Result: {'DELETE result': 'John has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:37, GET request -- Key: Tim, Result: {'GET result': 'Smith'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:39, GET request -- Key: Michael, Result: {'GET result': 'Andreyeshchev'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:47, GET request -- Key: John, Result: {'GET error': 'John does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:25:56, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:37:30, PUT request -- Key: Michael, Value: Andrev, Result: {'PUT result': 'key: Michael, value: Andrev has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 21:37:34, GET request -- Key: Michael, Result: {'GET result': 'Andrev'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:22, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:25, PUT request -- Key: Michael, Value: Andrev, Result: {'PUT result': 'key: Michael, value: Andrev has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:30, PUT request -- Key: Ronald, Value: Mcdonald, Result: {'PUT result': 'key: Ronald, value: Mcdonald has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:04:41, PUT request -- Key: Tim, Value: Smith, Result: {'PUT result': 'key: Tim, value: Smith has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:11, GET request -- Key: Tim, Result: {'GET result': 'Smith'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:14, GET request -- Key: Ronald, Result: {'GET result': 'Mcdonald'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:23, DELETE request -- Key: Ronald, Result: {'DELETE result': 'Ronald has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:31, DELETE request -- Key: Michael, Result: {'DELETE result': 'Michael has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:38, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:50, GET request -- Key: Ronald, Result: {'GET error': 'Ronald does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:56, GET request -- Key: Michael, Result: {'GET error': 'Michael does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:05:59, GET request -- Key: Tim, Result: {'GET result': 'Smith'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, PUT request -- Key: key1, Value: value1, Result: {'PUT result': 'key: key1, value: value1 has been inserted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET result': 'value1'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE result': 'key1 has been deleted!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, GET request -- Key: key1, Result: {'GET error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}
+INFO:ServerLogger:Current Timestamp: 2023-10-05 22:08:01, DELETE request -- Key: key1, Result: {'DELETE error': 'key1 does not exist!'}

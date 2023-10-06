@@ -1,6 +1,6 @@
 FROM python:3.9-alpine
 WORKDIR /app
-COPY server.py .
+COPY . /app/
 RUN pip install Flask==2.3.3
-CMD ["python", "-u", "server.py"]
-EXPOSE 3000
+ENTRYPOINT ["python", "-u", "server.py"]
+EXPOSE 65432
