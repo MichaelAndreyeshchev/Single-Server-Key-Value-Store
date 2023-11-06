@@ -1,6 +1,6 @@
 # Multi-Threaded Key-Value Store Server
 
-This project implements a simple multi-threaded key-value store server along with client scripts to interact with the server. The server utilizes sockets for communication, and handles concurrent requests using threading. It supports GET, PUT, and DELETE operations on a hash table. Additionally, it provides a persistence mechanism to save the hash table data to disk and load it back upon server startup.
+This project implements a multi-threaded key-value store server along with client scripts to interact with more than one server. The servers utilize sockets for communication, and handles concurrent requests using threading. They supports GET, PUT, and DELETE operations on a hash table. Additionally, it provides a persistence mechanism to save the hash table data to disk and load it back upon server startup.  Moreover, consistent hashing is employd to evenly distribute the load across multiple KV stores, ensuring a more fault-tolerant system.
 
 ## Server Script (`server.py`)
 
@@ -31,12 +31,16 @@ This project implements a simple multi-threaded key-value store server along wit
 
 ## Client Script for Multi-Threaded Key-Value Store Server
 
-The `client.py` script is a simple client-side script to interact with the multi-threaded key-value store server. It can send requests for inserting, fetching, or deleting key-value pairs to the server. It also supports a request to end the server process.  The `client.py` script uses command line arguments to specify the request to be sent to the server. The arguments are parsed using the `argparse` module.
+The `client.py` script is a client-side script to interact with multiple multi-threaded key-value store servers. It can send requests for inserting, fetching, or deleting key-value pairs to the servers. It also supports a request to end the server process.  The `client.py` script uses command line arguments to specify the request to be sent to the servers. The arguments are parsed using the `argparse` module.
+
+## Testing and Measurement Client Script for Multi-Threaded Key-Value Store Server
+
+The `testing_and_measurement.py` script is a client-side script to interact with multiple multi-threaded key-value store server. It can send requests for inserting, fetching, or deleting key-value pairs to the server. The code outputs latency vs. throughput plots and allows you to input using the `argparse` module the number of servers `num_servers`, the number of threads `num_threads`, and the number of requests `num_requests`
 
 ### Prerequisites
 
 - Ensure you have Python 3.x installed on your machine.
-- The server should be running before executing this client script.
+- The server should be running before executing the client scripts.
 
 ### Getting Started
 
@@ -65,7 +69,7 @@ docker run -p 127.0.0.1:65432:65432 key_value_store # the server is now running
 python multithreading_client.py # End the server by running "python client.py END end" twice
 ```
 **OR**
-2. **Running the Command-line Client:**
+3. **Running the Command-line Client:**
 ```bash
 python client.py PUT key1 value1
 python client.py GET key1
@@ -75,21 +79,29 @@ python client.py END end # Ends the server and clients! You will have to call th
 
 ### Regular Usage
 
-1. **Start the Server:**
+1. **Start the Server(s):**
 ```bash
 git clone https://github.com/MichaelAndreyeshchev/Single-Server-Key-Value-Store.git
 cd Single-Server-Key-Value-Store
-py -3 server.py
+py -3 server.py [PORT_NUMBER]
 ```
 2. **Running the Multi-Threaded Client:**
 ```bash
 py -3 multithreading_client.py # End the server and client by clicking ctr-C in the running server code and then rerunning the py -3 client_multi_threaded.py to fully terminate the server and client
 ```
 **OR**
-2. **Running the Command-line Client:**
+3. **Running the Command-line Client:**
 ```bash
 py -3 client.py PUT key1 value1
 py -3 client.py GET key1
 py -3 client.py DELETE key1
-py -3 client.py END end # Ends the server and clients! You will have to call this twice to fully do this
+py -3 client.py --all_servers True END end # Ends all servers and clients! You will have to call this twice to fully do this
+```
+**OR**
+3. **Running the Command-line Testing and Measurement Client (to output latency vs. throughput values):**
+```bash
+py -3 testing_and_measurement.py PUT --value some_value # NOTE: You must wait a few minutes after this command completes before trying additional commands because the connection precesses must be put of out of waiting state
+py -3 testing_and_measurement.py GET # NOTE: You must wait a few minutes after this command completes before trying additional commands because the connection precesses must be put of out of waiting state
+py -3 testing_and_measurement.py DELETE # NOTE: You must wait a few minutes after this command completes before trying additional commands because the connection precesses must be put of out of waiting state
+py -3 client.py --all_servers True END end # Ends all servers and clients! You will have to call this twice to fully do this
 ```
