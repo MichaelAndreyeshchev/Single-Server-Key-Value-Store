@@ -3,6 +3,7 @@ import socket
 import json
 import argparse
 from uhashring import HashRing
+import hashlib
 
 server_nodes = {
     "server_1": {"host": '127.0.0.1', "port": 65432},
@@ -10,11 +11,6 @@ server_nodes = {
     "server_3": {"host": '127.0.0.1', "port": 65434},
 }
 
-server_nodes = {
-    "server_1": {"host": '127.0.0.1', "port": 5000},
-    "server_2": {"host": '127.0.0.1', "port": 5001},
-    "server_3": {"host": '127.0.0.1', "port": 5002},
-}
 
 hash_ring = HashRing(nodes = server_nodes, vnodes = 10)
 
@@ -58,7 +54,7 @@ parser.add_argument('value', nargs='?', default=None, help='The value for the re
 args = parser.parse_args()
 
 
-source_server_node = hash_ring.get_node(args.key)
+source_server_node = hash_ring.get_node(hashlib.sha256(args.key.encode()).hexdigest())
 server_node_info = server_nodes[source_server_node]
 
 if args.all_servers:

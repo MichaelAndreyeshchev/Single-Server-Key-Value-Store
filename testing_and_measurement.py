@@ -35,7 +35,7 @@ def send_request(server_node_info, method, key, value=None):
 def perform_tests(server_nodes, hash_ring, num_requests, method, value=None):
     for i in range(num_requests):
         key = f"{i*2} key"
-        source_server_node = hash_ring.get_node(hashlib.sha256(key.encode()).hexdigest())
+        source_server_node = hash_ring.get_node(hashlib.sha256(key.encode()).hexdigest()) # implemented a custom hashing function to perform similar hashing to nginx
         server_node_info = server_nodes[source_server_node]
         send_request(server_node_info, method, key, value)
 
@@ -107,7 +107,7 @@ for i in range(int(args.num_servers)):
 
 plt.ylabel("Latency (seconds)")
 plt.xlabel("Throughput (operations / seconds)")
-plt.title(f"Throughput vs. Latency for {args.method} operations")
+plt.title(f"Latency vs. Throughput for {args.method} operations")
 plt.grid("True")
 plt.legend()
 plt.show()

@@ -28,6 +28,8 @@ class MultiThreadedServer:
         self.server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         self.server_socket.bind((host, port))
         self.server_socket.listen()
+        self.host = host
+        self.port = port
         self.running = True
 
         logging.basicConfig(filename='server.log', level=logging.INFO)
@@ -67,25 +69,25 @@ class MultiThreadedServer:
             with thread_lock:
                 value = hash_table.get(key, None)
 
-            response = {"GET result": value} if value else {"GET error": f"{key} does not exist!"}
+            response = {f"GET result on server {self.host}:{self.port}": value} if value else {"GET error": f"{key} does not exist!"}
             self.logger.info(f'Current Timestamp: {current_timestamp}, GET request -- Key: {key}, Result: {response}')
         
         elif method == "PUT":
             with thread_lock:
                 hash_table[key] = value
 
-            response = {"PUT result": f"key: {key}, value: {value} has been inserted!"} if value else {"PUT error": f"{key} does not exist!"}
+            response = {f"PUT result on server {self.host}:{self.port}": f"key: {key}, value: {value} has been inserted!"} if value else {"PUT error": f"{key} does not exist!"}
             self.logger.info(f'Current Timestamp: {current_timestamp}, PUT request -- Key: {key}, Value: {value}, Result: {response}')
 
         elif method == "DELETE":
             with thread_lock:
                 value = hash_table.pop(key, None)
 
-            response = {"DELETE result": f"{key} has been deleted!"} if value else {"DELETE error": f"{key} does not exist!"}
+            response = {f"DELETE result on server {self.host}:{self.port}": f"{key} has been deleted!"} if value else {"DELETE error": f"{key} does not exist!"}
             self.logger.info(f'Current Timestamp: {current_timestamp}, DELETE request -- Key: {key}, Result: {response}')
 
         elif method == "END":
-            response = {"END result": "Server has been closed!"}
+            response = {f"END result on server {self.host}:{self.port}": "Server has been closed!"}
             self.running = False
 
 

@@ -3,6 +3,7 @@ import socket
 import json
 import argparse
 from uhashring import HashRing
+import hashlib
 
 server_nodes = {
     "server_1": {"host": '127.0.0.1', "port": 65432},
@@ -27,7 +28,7 @@ def send_request(server_node_info, method, key, value=None):
         print("Connection to server from client has stopped!")
 
 def thread_task():
-    source_server_node = hash_ring.get_node("key1")
+    source_server_node = hash_ring.get_node(hashlib.sha256("key1".encode()).hexdigest())
     server_node_info = server_nodes[source_server_node]
     
     # These are example requests; adjust as needed
