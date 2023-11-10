@@ -64,6 +64,7 @@ class MultiThreadedServer:
         value = request_json.get("value")
 
         current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        response = {}
 
         if method == "GET":
             with thread_lock:
