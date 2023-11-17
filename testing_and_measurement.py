@@ -15,9 +15,9 @@ from uhashring import HashRing
 # import numpy as np
 import hashlib
 from hashring import HashRing
-#BASE_URLS = ['http://127.0.0.1:65432', 'http://127.0.0.1:65433', 'http://127.0.0.1:65434']
+BASE_URLS = ['http://127.0.0.1:65432', 'http://127.0.0.1:65433', 'http://127.0.0.1:65434']
 #BASE_URLS = ['http://127.0.0.1:8080', 'http://127.0.0.1:8081']
-BASE_URLS = ['http://127.0.0.1:65432']
+#BASE_URLS = ['http://127.0.0.1:65432']
 ring = HashRing(BASE_URLS)
 
 def kv_store_client(operation, key, value=None):
@@ -95,7 +95,7 @@ def benchmark(num_operations, num_processes):
     print(f'Total Benchmark Time: {total_time:.2f} seconds')
 
 if __name__ == '__main__':
-    num_operations_per_process = 350
+    num_operations_per_process = 400
     num_processes = 15
     benchmark(num_operations_per_process, num_processes)
 
